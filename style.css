@@ -1,0 +1,81 @@
+/* Center the container and h3 */
+.container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* Center the chart containers */
+.chart-container1, .chart-container2 {
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center the content within the container */
+    max-width: 750px; /* Limit the width if needed */
+}
+
+/* Center the svg-container1 and svg-container2 */
+.svg-container1, .svg-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Center the headers within the svg-container1 and svg-container2 */
+.chart-container1 h4, .chart-container2 h4 {
+    text-align: center;
+}
+
+.frame {
+    border: 10px solid #ccc;
+    display: inline-block;
+    padding: 10px;
+}
+
+  /* CSS styles for the legend */
+  .legend-box {
+    position: absolute;
+    top: 120px; /* Adjust the top distance as needed */
+    right: -80px; /* Adjust the right distance as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 200px; /* Adjust the width as needed */
+  }
+
+  .legend {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .legend-color-box {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
+
+  /* Define colors for each continent */
+  .asia {
+    background-color: rgb(203, 195, 227); /* Light Sky Blue */
+  }
+
+  .north-america {
+    background-color: rgb(224, 176, 255); /* Deep Sky Blue */
+  }
+
+  .europe {
+    background-color: rgb(112, 41, 99); /* Dark Blue */
+    color: white;
+  }
+
+  .australia-oceania {
+    background-color: rgb(170, 152, 169); /* Royal Blue */
+  }

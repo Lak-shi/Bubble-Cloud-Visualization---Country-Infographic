@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bubble Cloud Visualization-Country Infographic</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="chart-container1">
+                    <h4 class="mt-4">2005 Capital City Population for Developed and Underdeveloped Countries using Inkscape {SVG Editor}</h4>
+                    <div class="svg-container1">
+                        <div class="frame">
+                            <img src="drawing.svg" alt="Bubble Cloud Chart" width="750" height="500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="chart-container2">
+                    <h4 class="mt-4">2005 Capital City Population for Developed and Underdeveloped Countries using SVG Code</h4>
+                    <div class="svg-container2">
+                        <div class="frame">
+                            <!-- Legend Box -->
+                            <div class="legend-box">
+                                <h5>Continent Legend:</h5>
+                                <ul class="legend">
+                                <li class="legend-item asia">
+                                    <div class="legend-color-box"></div>
+                                    Asia
+                                </li>
+                                <li class="legend-item north-america">
+                                    <div class="legend-color-box"></div>
+                                    North America
+                                </li>
+                                <li class="legend-item europe">
+                                    <div class="legend-color-box"></div>
+                                    Europe
+                                </li>
+                                <li class="legend-item australia-oceania">
+                                    <div class="legend-color-box"></div>
+                                    Australia/Oceania
+                                </li>
+                                </ul>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1300" height="750">
+                
+                                <!-- Add the gradient bar on the right -->
+                                <!-- Define a group to contain the data points -->
+                                <g id="bubbleGroup">
+                                    <!-- Australia -->
+                                    <g transform="translate(472, 315)"> <!-- Adjusted the 'translate' attribute -->
+                                        <!-- Calculate circle radius based on population size -->
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(170, 152, 169);" opacity="1" />
+                                        <text x="0" y="22" text-anchor="middle" font-size="12" class="label" fill="black">366</text>
+                                        <text x="0" y="-8" dy="0.35em" text-anchor="middle" style="font-size: 10px;" class="label" fill="black">AUSTRALIA</text>
+                                        <text x="0" y="5" dy="0.35em" text-anchor="middle" style="font-size: 11px;" class="label" fill="black">{Canberra}</text>
+                                    </g>
+                                    <!-- Belarus -->
+                                    <g transform="translate(576, 630)">
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(112, 41, 99);" opacity="1" />
+                                        <text x="0" y="35" text-anchor="middle" style="font-size: 15px;" class="label" fill="white">1,775</text>
+                                        <text x="0" y="-10" dy="0.35em" text-anchor="middle" style="font-size: 15px;" class="label" fill="white">BELARUS</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 15px;" class="label" fill="white">{Minsk}</text>
+                                    </g>
+                                    <!-- China -->
+                                    <g transform="translate(283, 250)">
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(203, 195, 227);" opacity="0.7" />
+                                        <text x="0" y="60" text-anchor="middle" style="font-size: 35px;" class="label" fill="black">12,991</text>
+                                        <text x="0" y="-20" dy="0.35em" text-anchor="middle" style="font-size: 35px;" class="label" fill="black">CHINA</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 35px;" class="label" fill="black">{Beijing}</text>
+                                    </g>
+                                    <!-- France -->
+                                    <g transform="translate(375, 558)"> 
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(112, 41, 99);" opacity="1" />
+                                        <text x="0" y="50" text-anchor="middle" style="font-size: 30px;" class="label" fill="white">10,092</text>
+                                        <text x="0" y="-20" dy="0.35em" text-anchor="middle" style="font-size: 30px;" class="label" fill="white">FRANCE</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 30px;" class="label" fill="white">{Paris}</text>
+                                    </g>
+                                    <!-- Germany -->
+                                    <g transform="translate(153, 473)"> 
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(112, 41, 99);" opacity="1" />
+                                        <text x="0" y="35" text-anchor="middle" style="font-size: 15px;" class="label" fill="white">3,391</text>
+                                        <text x="0" y="-10" dy="0.35em" text-anchor="middle" style="font-size: 20px;" class="label" fill="white">GERMANY</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 15px;" class="label" fill="white">{Berlin}</text>
+                                    </g>
+                                    <!-- India -->
+                                    <g transform="translate(880, 350)"> 
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(203, 195, 227);" opacity="0.7" />
+                                        <text x="0" y="80" text-anchor="middle" style="font-size: 50px;" class="label" fill="black">18,691</text>
+                                        <text x="0" y="-40" dy="0.35em" text-anchor="middle" style="font-size: 50px;" class="label" fill="black">INDIA</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 50px;" class="label" fill="black">{New Delhi}</text>
+                                    </g>
+                                    <!-- Italy -->
+                                    <g transform="translate(730, 607)"> 
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(112, 41, 99);" opacity="1" />
+                                        <text x="0" y="35" text-anchor="middle" style="font-size: 15px;" class="label" fill="white">3,807</text>
+                                        <text x="0" y="-10" dy="0.35em" text-anchor="middle" style="font-size: 14px;" class="label" fill="white">ITALY</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 15px;" class="label" fill="white">{Rome}</text>
+                                    </g>
+                                    <!-- Switzerland -->
+                                    <g transform="translate(730, 150)"> 
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(112, 41, 99);" opacity="1" />
+                                        <text x="0" y="26" text-anchor="middle" font-size="12" class="label" fill="white">367</text>
+                                        <text x="0" y="-5" dy="0.35em" text-anchor="middle" style="font-size: 7px;" class="label" fill="white">SWITZERLAND</text>
+                                        <text x="0" y="8" dy="0.35em" text-anchor="middle" font-size="12" class="label" fill="white">{Bern}</text>
+                                    </g>
+                                    <!-- UK -->
+                                    <g transform="translate(580, 200)"> 
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(112, 41, 99);" opacity="1" />
+                                        <text x="0" y="50" text-anchor="middle" style="font-size: 25px;" class="label" fill="white">7,501</text>
+                                        <text x="0" y="-20" dy="0.35em" text-anchor="middle" style="font-size: 25px;" class="label" fill="white">UNITED KINGDOM</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 25px;" class="label" fill="white">{London}</text>
+                                    </g>
+                                    <!-- USA -->
+                                    <g transform="translate(587, 428)"> 
+                                        <circle cx="0" cy="0" r="0" class="bubble" style="fill: rgb(224, 176, 255);" opacity="0.7" />
+                                        <text x="0" y="40" text-anchor="middle" style="font-size: 15px;" class="label" fill="black">4,264</text>
+                                        <text x="0" y="-10" dy="0.35em" text-anchor="middle" style="font-size: 14px;" class="label" fill="black">UNITED STATES OF AMERICA</text>
+                                        <text x="0" y="10" dy="0.35em" text-anchor="middle" style="font-size: 15px;" class="label" fill="black">{Washington, D.C.}</text>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Add Bootstrap JavaScript and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Function to calculate circle radius based on population size
+        function calculateRadius(population) {
+            // Adjust the multiplier for larger circles
+            return Math.sqrt(population) * 1.5;
+        }
+
+        // Call the function for each country and set the circle radius
+        const countries = document.querySelectorAll('#bubbleGroup g');
+        countries.forEach(country => {
+            const population = parseInt(country.querySelector('.label').textContent.replace(/,/g, ''), 10);
+            const radius = calculateRadius(population);
+            country.querySelector('.bubble').setAttribute('r', radius);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+Country,Year,Capital City,Capital city population (thousands)_Value
+Australia,2005,Canberra,366
+Australia,2010,Canberra,398
+Australia,2015,Canberra,429
+Australia,2018,Canberra,448
+Belarus,2005,Minsk,"1,775"
+Belarus,2010,Minsk,"1,850"
+Belarus,2015,Minsk,"1,945"
+Belarus,2018,Minsk,"2,005"
+China,2005,Beijing,"12,991"
+China,2010,Beijing,"16,441"
+China,2015,Beijing,"18,421"
+China,2018,Beijing,"19,618"
+France,2005,Paris,"10,092"
+France,2010,Paris,"10,460"
+France,2015,Paris,"10,734"
+France,2018,Paris,"10,901"
+Germany,2005,Berlin,"3,391"
+Germany,2010,Berlin,"3,450"
+Germany,2015,Berlin,"3,514"
+Germany,2018,Berlin,"3,552"
+India,2005,New Delhi,"18,691"
+India,2010,New Delhi,"21,988"
+India,2015,New Delhi,"25,866"
+India,2018,New Delhi,"28,514"
+Italy,2005,Rome,"3,807"
+Italy,2010,Rome,"3,957"
+Italy,2015,Rome,"4,113"
+Italy,2018,Rome,"4,210"
+Switzerland,2005,Bern,367
+Switzerland,2010,Bern,387
+Switzerland,2015,Bern,409
+Switzerland,2018,Bern,422
+United Kingdom,2005,London,"7,501"
+United Kingdom,2010,London,"8,044"
+United Kingdom,2015,London,"8,661"
+United Kingdom,2018,London,"9,046"
+United States of America,2005,"Washington, D.C.","4,264"
+United States of America,2010,"Washington, D.C.","4,604"
+United States of America,2015,"Washington, D.C.","4,972"
+United States of America,2018,"Washington, D.C.","5,207"
